@@ -143,6 +143,9 @@ class TemplateDocumentGenerator:
         # Setup document styles and page settings
         self._setup_document(doc)
         
+        # Generate cover page (full-page image)
+        self._generate_cover_page(doc)
+        
         # Generate letter section
         self._generate_letter(doc)
         
@@ -193,6 +196,41 @@ class TemplateDocumentGenerator:
         style.font.size = Pt(doc_style.get("font_size", 10))
         style.paragraph_format.line_spacing = doc_style.get("line_spacing", 1.0)
         style.paragraph_format.space_after = Pt(0)
+    
+    def _generate_cover_page(self, doc):
+        """Generate a full-page cover image as the first page."""
+        print("  Generating cover page...")
+        
+        cover_image_path = "images/cover_page.png"
+        
+        if not os.path.exists(cover_image_path):
+            print(f"  ⚠ Warning: Cover image not found at {cover_image_path}")
+            return
+        
+        # First section should have no margins for full-page image
+        section = doc.sections[0]
+        section.top_margin = Inches(0)
+        section.bottom_margin = Inches(0)
+        section.left_margin = Inches(0)
+        section.right_margin = Inches(0)
+        
+        # Add the cover image
+        from docx.shared import Mm
+        p = doc.add_paragraph()
+        run = p.add_run()
+        # A4 size: 210mm x 297mm
+        run.add_picture(cover_image_path, width=Mm(210), height=Mm(297))
+        
+        # Add a new section for the letter content with proper margins
+        new_section = doc.add_section()
+        new_section.page_height = Inches(11.69)
+        new_section.page_width = Inches(8.27)
+        
+        letter_margins = self.template.get("pages", {}).get("letter", {}).get("margins", {})
+        new_section.top_margin = Inches(letter_margins.get("top", 1))
+        new_section.bottom_margin = Inches(letter_margins.get("bottom", 1))
+        new_section.left_margin = Inches(letter_margins.get("left", 1))
+        new_section.right_margin = Inches(letter_margins.get("right", 1))
     
     def _generate_letter(self, doc):
         """Generate the letter section (page 1-2)."""
