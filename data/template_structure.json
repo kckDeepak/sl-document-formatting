@@ -1,0 +1,242 @@
+{
+  "_description": "Document template structure - defines the static template with placeholder references",
+  
+  "styles": {
+    "document": {
+      "font_family": "Poppins",
+      "font_size": 10,
+      "font_color": "000000",
+      "line_spacing": 1.0,
+      "alignment": "LEFT"
+    },
+    "heading1": {
+      "font_family": "Noe Display SJP Bold",
+      "font_size": 20,
+      "font_color": "0F1E3C",
+      "bold": false,
+      "space_before": 0,
+      "space_after": 6,
+      "alignment": "LEFT",
+      "page_break_before": true
+    },
+    "heading2": {
+      "font_family": "Poppins SemiBold",
+      "font_size": 12,
+      "font_color": "0F1E3C",
+      "bold": false,
+      "space_before": 6,
+      "space_after": 6,
+      "alignment": "LEFT"
+    },
+    "bullet": {
+      "font_family": "Poppins",
+      "font_size": 10,
+      "font_color": "000000",
+      "line_spacing": 1.0,
+      "left_indent": 0.5,
+      "hanging_indent": 0.25
+    },
+    "table_header": {
+      "font_family": "Poppins",
+      "font_size": 9,
+      "font_color": "000000",
+      "bold": true,
+      "alignment": "CENTER",
+      "vertical_alignment": "CENTER",
+      "background_color": "3FDCC8"
+    },
+    "table_cell": {
+      "font_family": "Poppins",
+      "font_size": 9,
+      "font_color": "000000",
+      "alignment": "CENTER",
+      "vertical_alignment": "CENTER"
+    }
+  },
+  
+  "pages": {
+    "cover": {
+      "image": "image/Picture1.jpg",
+      "full_page": true,
+      "margins": { "top": 0, "bottom": 0, "left": 0, "right": 0 }
+    },
+    "letter": {
+      "orientation": "PORTRAIT",
+      "page_size": "A4",
+      "margins": { "top": 1, "bottom": 1, "left": 1, "right": 1 }
+    },
+    "appendix": {
+      "orientation": "LANDSCAPE",
+      "page_size": "A4",
+      "margins": { "top": 1, "bottom": 0.5, "left": 0.5, "right": 0.5 }
+    }
+  },
+  
+  "template": {
+    "letter": {
+      "confidential": "Private and Confidential",
+      "closing_company": "Bradbys Wealth Management",
+      "valediction": "Yours sincerely,"
+    },
+    
+    "intro_paragraphs": [
+      "I am writing further to our recent discussion on {cfr.meeting_date} to confirm my recommendation.",
+      "You wanted to focus on Retirement Planning.",
+      "We discussed areas such as health, life events, financial capability, and resilience that you feel I should be aware of. You confirmed there are {illustration.health_discussion.circumstances_impact} which may impact my advice or influence your ability to discuss and understand my advice."
+    ],
+    
+    "parts_intro": "The rest of this report is separated into the following parts:",
+    "parts_bullets": [
+      "Part 1 - sets out your objectives based on the information you provided to me;",
+      "Part 2 - details the reasons for my recommendation;",
+      "Part 3 - explains the issues to be considered when replacing your existing retirement arrangements;",
+      "Part 4 - confirms your attitude to investment risk and fund selection."
+    ],
+    "appendix_intro": "The Appendices to the report contain more details and background to the underlying reasons for my advice, as well as details of the alternative options available and a Product Comparison.",
+    
+    "other_documentation": {
+      "heading": "Other Documentation",
+      "intro": "In addition to this report, during our discussions I provided you with various other documents which are listed below:",
+      "bullets": [
+        "Services and Costs Disclosure Document – which describes the products we offer, the service we provide and our Terms of Business. It also highlights the cost of our advice to you, including our Ongoing Advice Charge. I will continue to provide advice to your Personal Representatives of your estate in the event of your death, should they wish to continue paying for this service;",
+        "Key Features Booklet – which provides important information about your investment, including details of rights, such as cancellations;",
+        "Illustration – which explains the impact of charges on your investment based on the funds you are invested in;",
+        "Understanding the Balance Between Risk and Reward – which explains investment risk and information about the risk ratings and special risk factors relating to our range of funds;"
+      ],
+      "closing": "It is important that you have read and understood these documents and I suggest you keep them with this report. Please let me know should you have any questions in respect of these."
+    },
+    
+    "ongoing_advice": {
+      "heading": "Ongoing Advice",
+      "paragraphs": [
+        "A key element of financial planning is conducting regular reviews of your circumstances to ensure the course of action taken today remains appropriate, as it is likely your objectives and circumstances will change over time.",
+        "As part of my ongoing service, I will {user_input.ongoing_advice_description}"
+      ]
+    },
+    
+    "next_steps": {
+      "heading": "Next Steps",
+      "paragraphs": [
+        "Please find enclosed my recommendation and once agreed I will forward your application for processing meaning you should receive confirmation of your investment shortly.",
+        "I have explained your money will not be invested in the time between cashing in your existing funds and the proceeds being re-invested with St. James's Place. While the proceeds are not invested, you will not benefit from any increase in the value of your chosen funds and you will also not suffer from any reduction in their value.",
+        "In the meantime, if anything within this report is incorrect or you have any questions about its contents or any of the documents I have provided you with, please contact me using the details I have previously supplied you with."
+      ]
+    }
+  },
+  
+  "part1": {
+    "heading1": "Part 1 - Your Objectives, Needs and Circumstances",
+    "heading2": "Your Immediate Objectives",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "During our discussions, we spoke in depth around your objectives regarding your retirement planning. We agreed your overall objectives were to:"
+      },
+      {
+        "type": "bullet_list",
+        "source": "user_input.part1_objectives.objectives_list"
+      },
+      {
+        "type": "paragraph",
+        "text": "You wish to invest funds for future benefits. You believe that the earliest possible age you will need to access these funds is {user_input.part1_objectives.earliest_access_age}."
+      },
+      {
+        "type": "paragraph",
+        "text": "You like the idea of the service and ongoing advice which I am able to offer on an ongoing basis. You believe this will be of benefit to you in the future because {user_input.part1_objectives.ongoing_advice_reason}"
+      },
+      {
+        "type": "paragraph",
+        "text": "At St. James's Place, we do not employ our own investment managers but select from the best managers around the world to manage our funds. I also described the role of the Investment Committee, our in-house team of analysts, and independent consultancies in the selection, monitoring and, when necessary, changing of these managers."
+      },
+      {
+        "type": "paragraph",
+        "text": "Following our discussions and the information provided, you told me you believed the St. James's Place Approach to Investment Management will benefit you because {user_input.part1_objectives.sjp_investment_reason}"
+      },
+      {
+        "type": "paragraph",
+        "text": "Based on this I recommended the St. James's Place Approach to Investment Management to you."
+      },
+      {
+        "type": "paragraph",
+        "text": "{user_input.part1_objectives.consolidation_reason}"
+      },
+      {
+        "type": "paragraph",
+        "text": "Having considered each of your objectives, the key factors that I took into consideration when considering a potential recommendation were:"
+      },
+      {
+        "type": "bullet_list",
+        "source": "illustration.key_factors",
+        "keys": ["desire_invest_retirement", "ongoing_service_advice", "sjp_investment_approach", "flexibility_benefits", "regular_reviews"]
+      },
+      {
+        "type": "heading2",
+        "text": "Pension Arrangements"
+      },
+      {
+        "type": "paragraph",
+        "text": "You currently have the following pension arrangements in place:"
+      },
+      {
+        "type": "table",
+        "table_id": "pension_arrangements"
+      }
+    ]
+  },
+  
+  "part2": {
+    "heading1": "Part 2 - My Recommendation",
+    "heading2": "Recommended Actions",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "I recommend you replace the following existing arrangements with a St. James's Place Retirement Account:"
+      },
+      {
+        "type": "table",
+        "table_id": "recommendation_table"
+      },
+      {
+        "type": "paragraph",
+        "text": "My recommendation is based on your needs and objectives as set out in Part 1 of this report and my specific reasons for the recommendation are set out below."
+      },
+      {
+        "type": "paragraph",
+        "text": "The St. James's Place Retirement Account will allow you to accumulate funds for future benefits. In line with your plans for retirement you are able to access these funds at age 65."
+      },
+      {
+        "type": "paragraph",
+        "text": "You will receive the service and ongoing advice that I am able to offer. I believe this will be of benefit to you in the future because {user_input.part2_recommendation.ongoing_advice_benefit}"
+      },
+      {
+        "type": "paragraph",
+        "text": "By utilising a St. James's Place Retirement Account, you will have access to the St. James's Place Approach to Investment Management. This forms a central part of my recommendation because {user_input.part2_recommendation.investment_approach_reason}"
+      },
+      {
+        "type": "paragraph",
+        "text": "My recommendation addresses your concerns about your existing provider as they will no longer be responsible for managing your funds and a new relationship will be established with St. James's Place as a result of moving these funds to a St. James's Place Retirement Account."
+      },
+      {
+        "type": "paragraph",
+        "text": "I have recommended a St. James's Place Retirement Account because {user_input.part2_recommendation.retirement_reason}"
+      },
+      {
+        "type": "paragraph",
+        "text": "I do not recommend you transfer benefits from your plan with {user_input.part2_recommendation.aviva_not_transfer_reason}"
+      }
+    ]
+  },
+  
+  "part3": {
+    "heading1": "Part 3 - Impact of Replacement",
+    "heading2": "Pension Plans to be transferred"
+  },
+  
+  "part4": {
+    "heading1": "Part 4 - Your Attitude to Risk and fund selection"
+  },
+  
+  "appendix": {
+    "title": "Appendix ii - Product Comparison"
+  }
+}

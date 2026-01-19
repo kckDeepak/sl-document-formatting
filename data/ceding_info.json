@@ -1,0 +1,71 @@
+{
+  "_source": "CEDING_INFO",
+  "_description": "Ceding Info Check/File Note - RED highlighted fields",
+  
+  "scottish_widows_details": {
+    "plan_commenced": "This plan commenced on 28 September 2013",
+    "contribution_status": "Contributions into the plan were being paid by your previous employer and have ceased now that you have left their employment.",
+    "last_contribution": "The last contribution was paid on 21 August 2025",
+    "transfers_in": "The plan has previously had 2 transfers in",
+    "bulk_transfer": "Your plan has never had a bulk/block transfer in",
+    "protected_tfc": "The scheme has confirmed that no protected tax-free cash applies, the maximum tax-free cash at retirement would be 25%",
+    "investments": [
+      {
+        "fund_name": "Scottish Widows Pension Portfolio Four CSB",
+        "value": "£64,945.44"
+      },
+      {
+        "fund_name": "Scottish Widows Pension Portfolio Three CSB",
+        "value": "£291,440.06"
+      }
+    ],
+    "charges": {
+      "annual_management_charge": "0.15%",
+      "fund_charge": "0.10%"
+    },
+    "additional_info": [
+      "There is no discount, loyalty bonus or tiered charging",
+      "There is no annual policy fee nor any other charges including exit charges",
+      "You have paid no initial charges.",
+      "Your plan is invested in a lifestyle strategy",
+      "There is no bid offer spread",
+      "Allocation rate is 100%",
+      "The plan does not contain GMP, RST, GAR, Enhanced tax-free cash in excess of 25%, With Profits, MVR, loyalty bonus, waiver of contributions or any additional life cover",
+      "There is no adviser attached to this plan nor one available through the scheme nor any adviser charging",
+      "The death benefit is a return of fund value",
+      "There will be no reduction in tax-free cash on the transfer to another pension provider",
+      "The plan does facilitate full UFPLS and partial UFPLS",
+      "Your plan does facilitate Flexi-Access Drawdown",
+      "Your plan value is as of 10 October 2025"
+    ]
+  },
+  
+  "part3_transfer_details": {
+    "charge_on_transfer": "None",
+    "protected_tfc": "No",
+    "guarantees": "No",
+    "terminal_bonus": "No"
+  },
+  
+  "disadvantages": {
+    "higher_charges": "Higher charges",
+    "fewer_funds": "Fewer funds to invest in",
+    "loss_lifestyling": "Loss of Lifestyling. Lifestyling is where your existing provider would facilitate automatic fund switches to de-risk your pension as you near retirement.",
+    "loss_death_cover": "Loss of accidental death cover"
+  },
+  
+  "product_comparison_scottish_widows": {
+    "initial_advice_charge": "None",
+    "ongoing_advice_charge": "-",
+    "ongoing_product_charge": "-",
+    "ongoing_fund_charge": "-",
+    "annual_management_charge": "0.15%",
+    "early_withdrawal_charges": "None",
+    "allocation_rate": "100%",
+    "total_external_charge": "0.10%",
+    "plan_charge": "None",
+    "number_of_funds": "100+",
+    "max_funds": "10",
+    "guarantees": "None"
+  }
+}

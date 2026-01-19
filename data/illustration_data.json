@@ -1,0 +1,36 @@
+{
+  "_source": "ILLUSTRATION",
+  "_description": "Illustration Document - PINK highlighted fields",
+  
+  "health_discussion": {
+    "circumstances_impact": "no circumstances"
+  },
+  
+  "objectives": {
+    "consolidation_action": "consolidate"
+  },
+  
+  "key_factors": {
+    "desire_invest_retirement": "your desire to invest for your retirement",
+    "ongoing_service_advice": "the ongoing service and advice that you want",
+    "sjp_investment_approach": "the St. James's Place Investment Management Approach",
+    "flexibility_benefits": "the flexibility required when taking benefits",
+    "regular_reviews": "your requirement for regular reviews"
+  },
+  
+  "aviva_plan": {
+    "current_value": "£4,015.03",
+    "transfer_value": "£4,015.03",
+    "ongoing_contribution": "£1,989.27 p.m."
+  },
+  
+  "salary_sacrifice": {
+    "description": "Your employer has confirmed that pension contributions can be made via salary sacrifice, but this doesn't include the employer's national insurance saving. The benefits of paying pension contributions via salary sacrifice are:\n\nYou will pay less income tax on your earnings.\nYou will pay less national insurance on your earnings. Your employer saves on national insurance."
+  },
+  
+  "fund_selection": {
+    "overall_equity_content": "The overall equity content of the allocation following the transfer 68.37%, which is within the 80% threshold for a medium risk portfolio."
+  },
+  
+  "investment_timeframe": "5 to 15 years because your selected retirement age is 65."
+}

@@ -1,0 +1,83 @@
+{
+  "_source": "USER_INPUT",
+  "_description": "User Input - BLUE highlighted fields",
+  
+  "letter_details": {
+    "date": "6 January 2026",
+    "client_first_name": "Ioan"
+  },
+  
+  "closing": {
+    "adviser_name": "Peter Ryan",
+    "adviser_title": "Financial Adviser"
+  },
+  
+  "ongoing_advice_description": "contact you on at least an annual basis to arrange face-to-face review meetings and I will also be available via phone or email should you have any queries that you wish to discuss. You will also receive an annual statement in respect of your investments.",
+  
+  "part1_objectives": {
+    "objectives_list": [
+      "invest for your retirement",
+      "access ongoing service and advice",
+      "utilise the St. James's Place Investment Management Approach",
+      "consolidate your pension arrangements"
+    ],
+    "earliest_access_age": "65",
+    "ongoing_advice_reason": "you are keen to continue benefitting from professional, face-to-face advice from an adviser you feel you can trust and who understands your financial needs.",
+    "sjp_investment_reason": "you like the diversification approach offered to reduce risk and the active investment management approach that identifies poorly performing fund managers, which are then removed and replaced by our investment management team.",
+    "consolidation_reason": "You want to consolidate your Scottish Widows Plan into your existing St. James's Place retirement account. You believe this will simplify the administration of your retirement planning as you will reduce the number of providers your funds are held with from three to two. In addition, this approach allows you to benefit from my ongoing advice and the convenience of face-to-face support, which is not offered through your existing arrangement with Scottish Widows. Additionally, without industry specific knowledge and investment expertise you find managing your plan alone cumbersome and therefore do not feel that your plan is working as hard as it could be for you.",
+    "scottish_widows_proposed_action": "Transfer",
+    "aviva_proposed_action": "None"
+  },
+  
+  "mpaa_statement": "You have not triggered the Money Purchase Annual Allowance (MPAA) of £10,000.00 because you have not accessed or taken any benefits from your pensions.",
+  
+  "part2_recommendation": {
+    "regular_contribution": "None",
+    "ongoing_advice_benefit": "you currently receive no advice on your externally held pension fund. You wish to continue to benefit from my convenient face-to-face advice, under investment allocations catered to your bespoke needs and ongoing changing requirements.",
+    "investment_approach_reason": "we will invest your monies in alignment with your stated risk profile using a diversified fund selection to encourage capital growth.",
+    "retirement_reason": "you want to build a healthy pot for your retirement.",
+    "aviva_not_transfer_reason": "Aviva because this is your current employer scheme that you have recently joined. You wish to keep it where it is to continue receiving contributions from your employer."
+  },
+  
+  "employer_scheme": {
+    "contribution_matching_status": "However, you are already making the maximum contributions to receive this benefit.",
+    "contribution_type": "Transfer",
+    "source": "Transfer from Scottish Widows",
+    "can_accept": "Yes",
+    "scheme_type": "Money Purchase",
+    "sjp_vs_employer_reason": "though the Retirement Account may be more expensive, you feel that since there is no advice being offered on your employer scheme you would be more comfortable investing with St James's Place and enjoying the ongoing advice and reviews that I am able to provide you with."
+  },
+  
+  "client_profile": {
+    "risk_profile": "Medium",
+    "emergency_fund_reason": "after taking into account your current and future sources of income, your cash deposits and the possible replacement costs for white goods and services in your household, I recommend that £10,000.00 is sufficient for your needs.",
+    "debts": "no debts",
+    "alternative_not_recommended_reason": "you wish to receive my advice and ongoing reviews on these funds, and this is a key reason for you wanting to transfer your plan.",
+    "investment_aim": "build a healthy pot for stability and peace of mind in the future"
+  },
+  
+  "fund_selection": {
+    "table": [
+      {
+        "category": "Multi-Asset Funds",
+        "fund_selection": "Polaris 2",
+        "fund_type": "Accumulation",
+        "risk_profile": "Medium",
+        "percentage": "50%"
+      },
+      {
+        "category": "Multi-Asset Funds",
+        "fund_selection": "Polaris 3",
+        "fund_type": "Accumulation",
+        "risk_profile": "Medium",
+        "percentage": "50%"
+      }
+    ],
+    "recommendation_reason": "I recommended the Fund Selections above because Polaris solutions aim to achieve capital growth over the medium to longer term by investing into a portfolio of different asset classes. These assets include equities, bonds, and alternative investments, such as property.  St. James's Place rebalances the Polaris range, which means their asset allocation will continue to meet their investment risk profiles, therefore, your attitude to risk.\n\nWe discussed the geographic allocation and your preference for investing in a globally diversified solution across different markets and regions. Polaris has a 'Fund of Funds' structure which provides further diversification through access to some of the world's leading fund managers. This structure enables our Investment Management team to make changes to the underlying allocation of the fund quickly and without further administrative burden to you.\n\nThis investment approach is important to you because of the asset breakdown. Polaris 2 invests in global and UK equities, bonds and alternatives. It aims to provide capital growth for investments over the medium and long term and is diversified across managers with different investment styles. You are comfortable with a medium risk portfolio and agreed with the statement for a medium attitude to risk within our risk brochure. You understand that with investments of this nature there may be fluctuations in value especially in the short term, but you are prepared to accept this risk in return for the better potential to make capital growth. You were happy to allocate half of the funds into Polaris 3 because You did not feel as though Polaris 2 alone was aggressive enough in its equity content and therefore appreciated Polaris 3's slightly higher equity content that will allow for the potential for greater growth. However, you did not feel comfortable being overly exposed to more equities by being fully invested in Polaris 3 and therefore the 50/50 split provides a better balance. \n\nFurthermore, you are comfortable investing in this allocation as your existing St. James's Place Retirement account is invested in the same allocation.",
+    "additional_fund_notes": "You are also aware that the value of this portfolio will typically fluctuate more than that of the other Medium Risk rated model portfolios such as the Polaris 1 and Balanced Portfolio and Balance InRetirement fund. These were all discounted because the equity content was not as aggressive as you need for your investment objectives. \n\nOn the more aggressive end of the Medium Risk Portfolios, we also considered the Strategic Growth Portfolio, however ultimately you were most attracted to the automatic rebalancing solution via the Polaris 2 and 3. Other funds including, Polaris 4 and the Adventurous portfolio were discounted as they were above you stated attitude to risk.\n\nWe also considered the new Polaris multi-index range; however, these were ultimately discounted as they are new fund, and you wished to invest in an allocation with a more tried and tested history. You also appreciated the underlying strategies implemented by the fund managers in the traditional Polaris range that allow for flexibility to invest or avoid specific areas of the market. This not a feature of the Polaris multi-index range as the underlying strategies track indices and therefore they cannot reduce specific sector exposure.\n\nAs the core investment solutions offered by St. James's Place did not meet your investment preferences, I have personally constructed your investment portfolio based on my professional judgement and understanding of your investment objectives."
+  },
+  
+  "product_comparison": {
+    "allocation_rate": "98.33%2"
+  }
+}

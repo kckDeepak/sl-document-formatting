@@ -1,0 +1,62 @@
+{
+  "_source": "CFR",
+  "_description": "Client Financial Record - GREEN highlighted fields",
+  
+  "recipient": {
+    "title_and_name": "Mr D. I. Davies",
+    "address_line_1": "Abbotsford",
+    "address_line_2": "Trimmingham Road",
+    "address_line_3": "Halifax",
+    "address_line_4": "West Yorkshire",
+    "address_line_5": "HX2 7PX"
+  },
+  
+  "meeting_date": "5 December 2025",
+  
+  "pension_arrangements": {
+    "sjp_retirement_account": {
+      "provider_plan": "St. James's Place Retirement Account RA267073640001",
+      "current_value": "£189,850.06",
+      "transfer_value": "£185,974.14",
+      "ongoing_contribution": "None",
+      "proposed_action": "None"
+    },
+    "scottish_widows": {
+      "provider_plan": "Scottish Widows Group Personal Pension SW3223427",
+      "current_value": "£356,385.50",
+      "transfer_value": "£356,385.50",
+      "ongoing_contribution": "None"
+    },
+    "aviva": {
+      "provider_plan": "Aviva Group Personal Pension - TK13341044"
+    }
+  },
+  
+  "part2_recommendation": {
+    "source_plan": "Scottish Widows Group Personal Pension SW3223427",
+    "lump_sum_amount": "£356,385.50"
+  },
+  
+  "part3_impact": {
+    "provider_plan": "Scottish Widows Group Personal Pension SW3223427",
+    "transfer_value": "£356,385.50"
+  },
+  
+  "client_profile": {
+    "investment_knowledge_intro": "Having discussed this with you, we agreed that you have a moderate level of investment knowledge and experience because:",
+    "investment_knowledge_bullets": [
+      "You have purchased investments and have experienced significant investment volatility since acquiring these."
+    ],
+    "capacity_for_loss_intro": "We agreed you have a moderate capacity to withstand investment losses because:",
+    "capacity_for_loss_bullets": [
+      "You have sufficient net disposable income providing you with the ability to save.",
+      "You are not primarily reliant on any investment income."
+    ],
+    "emergency_fund": "£10,000.00",
+    "emergency_fund_sufficient": "£10,000.00",
+    "annual_income": "£94,500.00",
+    "tax_bracket": "higher rate",
+    "has_will": "You do not have an up-to-date Will"
+  }
+
+}

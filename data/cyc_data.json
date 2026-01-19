@@ -1,0 +1,38 @@
+{
+  "_source": "CYC",
+  "_description": "Calculation System - YELLOW highlighted fields",
+  
+  "employer_scheme_comparison": {
+    "employer_scheme_charge": "0.27%",
+    "sjp_charge": "1.80%",
+    "outperformance_required": "1.53%",
+    "monetary_equivalent_first_year": "£5,361.69"
+  },
+  
+  "charges_spread_period": "10 years, 9 months",
+  
+  "outperformance_table": {
+    "scottish_widows": {
+      "level_of_outperformance": "1.65%",
+      "monetary_equivalent": "£5,708.86"
+    }
+  },
+  
+  "disadvantages": {
+    "new_initial_advice_charge": "A new Initial Advice Charge will be applied"
+  },
+  
+  "special_terms": {
+    "combined_outperformance": "1.55%",
+    "monetary_equivalent": "£5,431.78"
+  },
+  
+  "product_comparison": {
+    "sjp_retirement_account": {
+      "initial_advice_charge": "1.67%1",
+      "ongoing_advice_charge": "0.8%",
+      "ongoing_product_charge": "0.35%",
+      "ongoing_fund_charge": "0.5%"
+    }
+  }
+}
